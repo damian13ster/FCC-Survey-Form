@@ -1,0 +1,41 @@
+<style type="text/css">
+#formname {
+	padding-top: 20px;
+	margin: auto;
+	width:70%;
+}
+#name {
+	margin: auto;
+}
+ul {
+	list-style: none;
+}
+#textarea {
+	width: 80%;
+	height:80px;
+}
+#main {
+	background: url(https://cdn.britannica.com/52/3552-050-3E9D7E32/Flag-Poland.jpg) no-repeat center center fixed;
+}
+#container {
+	display: block;
+	max-width:60%;
+	margin: auto;
+	height:700px;
+	border-radius: 5%;
+	border: 5px solid red;
+	background: linear-gradient(45deg, lightcoral, white)
+}
+h1, p {
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+}
+p {padding-bottom: 20px; font-size: 18px;}
+#fieldset {
+	border: none;
+	text-align: left;
+	margin-left: 0px;
+	padding: 0px;
+}
+</style>

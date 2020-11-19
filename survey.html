@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="surveystyle.css">
+<html>
+<head>
+	<title>Polish National Team Survey</title>
+</head>
+<body id="main">
+<h1 id="title"> Polish National Team Coach Survey </h1>
+<p id="description"> Thank you for taking time to voice your opinion and help improve our national football team!</p>
+<div id="container">
+	<form id="survey-form">
+		<ul>
+			<li>
+		<label for="name" id="name-label">Name: </label> <br>
+		<input type="text" id="name" name="Name" placeholder="Enter your name" required>
+	</li><br>
+	<li>
+		<label for="email" id="email-label">E-mail: </label><br>
+		<input type="email" id="email" name="user-name" placeholder="Enter your e-mail" required>
+	</li><br>
+	<li>
+		<label for="age" id="number-label" placeholder="Age(number)">Age (optional)</label><br>
+		<input type="number" id="number" name="age" maxlength="3" size="3" min="10" max="120" placeholder="10-120">
+	</li>
+	<br>
+	<li>
+		<fieldset id="fieldset">
+			<label for="fire">Should Jerzy Brzeczek be fired?</label><br>
+			<input id="yes" type="radio" name="items" value="yes">
+			<label for="yes">Yes</label><br>
+			<input id="no" type="radio" name="items" value="no">
+			<label for="no">No</label><br>
+			<input for="notsure" type="radio" name="items" value="notsure">
+			<label for="notsure">Not sure</label><br>
+		</fieldset>
+	</li>
+	<br>
+	<li>
+		<label for="dropdown">Choose a replacement:</label><br>
+		<select id="dropdown">
+			<option value="N/A">N/A</option>
+			<option value="Adam Nawalka">Adam Nawalka</option>
+			<option value="Henryk Kasperczak">Henryk Kasperczak</option>
+			<option value="Czeslaw Michniewicz">Czeslaw Michniewicz</option>
+			<option value="Claudio Ranieri">Claudio Ranieri</option>
+			<option value="other">Other</option>
+		</select>
+	</li><br>
+	<li>
+		<label>Position for which we need changes:</label><br>
+		<input id="GK" type="checkbox" name="positions" value="GK">
+		<label for="GK">Goalkeeper</label><br>
+		<input id="RB" type="checkbox" name="positions" value="RB">
+		<label for="RB">Right-back</label><br>
+		<input id="LB" type="checkbox" name="positions" value="LB">
+		<label for="LB">Left-back</label><br>
+		<input id="CB" type="checkbox" name="positions" value="CB">
+		<label for="CB">Center-back</label><br>
+		<input id="RW" type="checkbox" name="positions" value="RW">
+		<label for="RW">Right-wing</label><br>
+		<input id="CM" type="checkbox" name="positions" value="CM">
+		<label for="CM">Center-mid</label><br>
+		<input id="LW" type="checkbox" name="positions" value="LW">
+		<label for="LW">Left-wing</label><br>
+		<input id="ST" type="checkbox" name="positions" value="ST">
+		<label for="ST">Striker</label><br>
+	</li><br>
+	<li>
+		<label for="textarea">Further comments and suggestions:</label><br>
+		<textarea id="textarea" rows="4" width: 80px placeholder="Enter comments here">
+		</textarea>
+	</li>
+	<input type="submit">
+	</form>
+</div>
+</body>
+</html>
